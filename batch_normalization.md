@@ -33,13 +33,9 @@ This is the pseudocode implementation for training written in the paper.
  <img src="/img/batch_normalization/alg1.png" width="280px">
 </p>
 
-Basically, the batch normalization layer uses a minibatch of data to estimate the mean and standard deviation across every single feature dimension. These parameters are then used to zero-center and normalize the features of the minibatch.
+Basically, the batch normalization layer uses a minibatch of data to estimate the mean and standard deviation across every single feature dimension. These parameters are then used to zero-center and normalize the features of the minibatch. Also, notice the last line of the algorithm. The batch normalization layer includes learnable parameters `gamma` and `beta` which shift and scale the normalized values. **Why is this particulary useful?** 
 
-Notice the last line of the algorithm. The batch normalization layer includes learnable parameters `gamma` and `beta` which shift and scale the normalized values. **Why is this particulary useful?** 
-
-Well, we would like for our NN to choose the level of saturation of its activations. Normalizing the inputs would restrict them to a certain region of the nonlinearity, something that could cause the activations to die or explode during training. 
-
-Backprop will finetune `gamma` and `beta` such that our network can choose to take full advantage of BN, or completely ignore it (i.e. identity mapping can be recovered by setting `gamma = std`, `beta = mean`).
+Well, we would like for our NN to choose the level of saturation of its activations. Normalizing the inputs would restrict them to a certain region of the nonlinearity, something that could cause the activations to die or explode during training. Backprop will finetune `gamma` and `beta` such that our network can choose to take full advantage of BN, or completely ignore it (i.e. identity mapping can be recovered by setting `gamma = std`, `beta = mean`).
 
 ### Training vs. Testing
 
@@ -55,7 +51,7 @@ Usually inserted after FC/Conv layers and before the nonlinearity.
 
 **What does this mean exactly?**
 
-Well when we're predicting an output, the layer is supposed to only see one data point at a time. This means that computing the mean and variance along a whole batch is technically *cheating*. Instead, a running average of these means and standard deviations is kept during training, and at test time these running averages are used to center and normalize features, effectively leading to *unbiased* population estimates. 
+Well, when we're predicting an output, the layer is supposed to only see one data point at a time. This means that computing the mean and variance along a whole batch is technically *cheating*. Instead, a running average of these means and standard deviations is kept during training, and at test time these running averages are used to center and normalize features, effectively leading to *unbiased* population estimates. 
 
 
 ### Advantages of Batch Normalization
