@@ -45,14 +45,13 @@ During testing, the BN layer implementation is different. In fact, the authors a
  <img src="/img/batch_normalization/alg2.png" alt="Drawing" width="240px">
 </p>
 
-**Where to Insert Batch Norm Layers?**
-
-Usually inserted after FC/Conv layers and before the nonlinearity.
-
 **What does this mean exactly?**
 
 Well, when we're predicting an output, the layer is supposed to only see one data point at a time. This means that computing the mean and variance along a whole batch is technically *cheating*. Instead, a running average of these means and standard deviations is kept during training, and at test time these running averages are used to center and normalize features, effectively leading to *unbiased* population estimates. 
 
+**Where to Insert Batch Norm Layers?**
+
+Usually inserted after FC/Conv layers and before the nonlinearity.
 
 ### Advantages of Batch Normalization
 
