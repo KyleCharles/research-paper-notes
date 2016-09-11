@@ -49,6 +49,9 @@ During testing, the BN layer implementation is different. In fact, the authors a
  <img src="/img/batch_normalization/alg2.png" alt="Drawing" width="240px">
 </p>
 
+**Where to Insert Batch Norm Layers?**
+
+Usually inserted after FC/Conv layers and before the nonlinearity.
 
 **What does this mean exactly?**
 
