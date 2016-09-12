@@ -43,7 +43,7 @@ Instead, we quit using dropout and scale our hidden layers by **p**. In this man
 
 I think that this is the most beautiful part of the paper. The authors use the idea of the superiority of sexual reproduction over asexual reproduction as motivation for dropout.
 
-In fact, sexual reproduction reduces complex co-adaptations between genes by forcing certain ones to be useful on their own or in collaboration with a small number of other genes rather than relying on the work of collective whole. This imbues sexual reproduction offsprings with a certain robustness: they have the ability to adapt to changes in the environment. In the same manner, dropout makes the hidden units in a neural network more robust and drives them towards creating useful features on their own.
+In fact, sexual reproduction reduces complex co-adaptations between genes by forcing certain ones to be useful on their own or in collaboration with a small number of other genes rather than relying on the work of the collective whole. This imbues sexual reproduction offsprings with a certain robustness: they have the ability to adapt to changes in the environment. In the same manner, dropout makes the hidden units in a neural network more robust and drives them towards creating useful features on their own.
 
 By the way, the authors also describe a similar motivation using the idea of *conspiracies*.
 
