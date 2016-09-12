@@ -22,7 +22,7 @@ Basically, dropout means keeping a neuron active with some probability **p**, or
 Below is an image taken from the paper illustrating dropout.
 
 <p align="center">
- <img src="/img/dropout/dropout_schema.png" alt="Drawing" style="width: 440px;"/>
+ <img src="/img/dropout/dropout_schema.png" alt="Drawing" width="440px">
 </p>
 
 **So how is this a form of ensembling?**
@@ -36,6 +36,6 @@ Note that at test time, we don't average the prediction from all the thinned mod
 Instead, we quit using dropout and scale our hidden layers by **p**. In this manner, the output of our neurons at test time have the same expected output that they had at training time. This scaling is very important because it enables us to combine the 2^n networks with shared weights into a single neural network.
 
 <p align="center">
- <img src="/img/dropout/scaling.png" alt="Drawing" style="width: 440px;"/>
+ <img src="/img/dropout/scaling.png" alt="Drawing" width="440px">
 </p>
 
