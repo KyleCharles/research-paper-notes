@@ -58,8 +58,9 @@ Settings:
  <img src="/img/large_batch/metric.png" width="480px">
 </p>
 - models: 6 different network architectures
+
 <p align="center">
- <img src="/img/large_batch/arch.png" width="480px">
+ <img src="/img/large_batch/archs.png" width="480px">
 </p>
 
 - loss: mean cross entropy
