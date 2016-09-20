@@ -25,7 +25,7 @@ This is the question the authors shed light upon.
 
 ### Meat of the Paper
 
-A. Drawbacks of Large-Batch Methods
+**A. Drawbacks of Large-Batch Methods**
 
 The experiments and data presented by the authors support 2 conjectures that try to explain the gap in generalization between LB and SB. They are:
 
@@ -40,11 +40,15 @@ Basically what this means is that LB methods converge to sharp minimizers of the
 
 While the training loss is seemingly low, test error is much higher, hence a gap in the generalization ability of the model.
 
-B. Success of Small-Batch Methods
+**B. Success of Small-Batch Methods**
 
 This begs the question of why do SB methods perform better, or put differently, **why do they not converge to sharp minimizers**?
 
 According to the authors, SB method gradients are noisier than their LB counterparts. This pushes the iterate out of the minimizer basin and tugs it towards flatter minimizers where noise will not cause an exit. If the initial noise had been smaller, the iterate would have stayed at the sharper minimizer.
+
+**C. Piggybacking LB on SB**
+
+Probably the most interesting result of the paper. By using iterates trained with SB gradient descent and warm starting LB methods with them, the authors are able to show that after a certain threshold, the sharpness of LB iterates drops. This means that LB has used the power of exploration of SB and landed in a flat minimizer. **Very useful!** Could be a potential way of training with larger batches in the future...
 
 
 ### Experiments
