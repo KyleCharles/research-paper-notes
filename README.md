@@ -1,6 +1,6 @@
 **2016-09**
 
-- On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima
+- On Large-Batch Training for Deep Learning
   - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/large_batch_training.md)
   - [arXiv](http://128.84.21.199/abs/1609.04836)
 - Batch Normalization
