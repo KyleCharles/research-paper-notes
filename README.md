@@ -1,3 +1,9 @@
+**2016-10**
+
+- A Neural Algorithm of Artistic Style
+  - [summary]()
+  - [arXiv](https://arxiv.org/abs/1508.06576)
+
 **2016-09**
 
 - On Large-Batch Training for Deep Learning
