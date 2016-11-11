@@ -39,7 +39,7 @@ The current state of the art in these tasks is achieved with a powerful type of 
 The target network is stacked on the source network.
 
 <p align="center">
- <img src="/img/nmt_linear/arch_representation.svg" width="300px">
+ <img src="/img/nmt_linear/arch_representation.png" width="300px">
 </p>
 
 **Source network** uses:
