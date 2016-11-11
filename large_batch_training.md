@@ -2,7 +2,7 @@
 
 **Authors**: *Nitish Shirish Keskar, Dheevatsa Mudigere, Jorge Nocedal, Mikhail Smelyanskiy, Ping Tak Peter Tang*, "On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima"
 
-**One-liner**: The authors provide numerical evidence that supports the view that large-batch methods tend to converge to sharper minimizers of the training and testing functions leading to poorer generalizations, and then discuss several empirical strategies to help alleviate this gap.
+**TL,DR**: The authors provide numerical evidence that supports the view that large-batch methods tend to converge to sharper minimizers of the training and testing functions leading to poorer generalizations, and then discuss several empirical strategies to help alleviate this gap.
 
 ### Introduction
 
