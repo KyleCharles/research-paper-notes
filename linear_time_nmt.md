@@ -9,7 +9,7 @@
 In **neural language modeling**, we would like our model to estimate the distribution of the sequences of words or characters that belong to the given language.
 
 <p align="center">
- <img src="/img/nmt_linear/lang_model.gif" width="260px">
+ <img src="/img/nmt_linear/lag_model.gif" width="260px">
 </p>
 
 On the other hand, in **neural machine translation**, we would like to estimate the distribution of the sequence in the target language *conditioned* on a given sequence in the source language.
