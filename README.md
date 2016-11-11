@@ -1,3 +1,9 @@
+**2016-11**
+
+- Linear Machine Translation in Linear Time
+  - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/linear_time_nmt.md)
+  - [arXiv](https://arxiv.org/abs/1610.10099)
+
 **2016-10**
 
 - A Neural Algorithm of Artistic Style
