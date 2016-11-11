@@ -2,7 +2,7 @@
 
 **Authors**: *Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aäron van den Oord, Alex Graves, Koray Kavukcuoglu*, "Neural Machine Translation in Linear Time"
 
-**One-liner**: The authors provide a neural architecture for sequence processing (i.e. language modelling, machine translation) with two important properties, specifically that it runs in linear time and preserves temporal resolution, rivaling and outperforming recurrent neural networks.
+**TL,DR**: The authors provide a neural architecture for sequence processing (i.e. language modelling, machine translation) with two important properties, specifically that it runs in linear time and preserves temporal resolution, rivaling and outperforming recurrent neural networks.
 
 ### Problem Setting
 
@@ -69,7 +69,7 @@ Note that the ByteNet Decoder is the target network of ByteNet. All in all, the 
 
 **Masked 1D Convolutions.** Sort of like the causal property described in the Wavenet paper and the masked convolutions described in the PixelCNN paper as well. Basically, the masking ensures that information from future tokens does not affect the prediction of the current token.
 
-**Dilation.** This increases the receptive field of the target network exponentially. The dilation scheme is double at every layer and capped at 16.
+**Dilation.** This increases the receptive field of the target network exponentially. The dilation scheme is doubled at every layer starting from 1 and capped at 16 (i.e. 1, 2, 4, 8 and 16).
 
 **Residual Blocks.** 2 variants of residual blocks are wrapped around each layer. ReLU for machine translation and Multiplicative Units for language modeling.
 
@@ -79,7 +79,7 @@ Note that the ByteNet Decoder is the target network of ByteNet. All in all, the 
 
 **Sub-Batch Normalization.** A variant of BN is developped so as to not violate the probability equation written above. Batch is devided into main and auxiliary, mean and variance computer over auxiliary and used to normalize layer using main batch. Loss is computed on main-batch only.
 
-**Word Embedding.** Bag of n-gram character is used only for translation task.
+**Word Embedding.** Bag of n-gram character is used for the translation task.
 
 ### Parameter Specifics
 
@@ -106,5 +106,3 @@ The character-level machine translation model is evaluated on the WMT English to
 - Sentence is padded with special characters to the nearest greater multiple of 25.
 - Each pair of sentences is mapped to a bucked based on length.
 - During decoding, use beam search to search over possible target intervals.
-
- 
