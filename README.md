@@ -1,3 +1,15 @@
+**2016-12**
+
+- Language Modeling with Gated Convolutional Networks
+  - summary (coming soon)
+  - [arXiv](https://arxiv.org/abs/1612.08083)
+- Spatial Transformer Networks
+  - summary (coming soon)
+  - [arXiv](https://arxiv.org/abs/1506.02025)
+- Perceptual Losses for Real-Time Style Transfer and Super-Resolution
+  - summary (coming soon)
+  - [arXiv](https://arxiv.org/abs/1603.08155)
+
 **2016-11**
 
 - Neural Machine Translation in Linear Time
