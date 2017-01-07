@@ -1,3 +1,8 @@
+**2017-01**
+
+- Generating Focussed Molecule Libraries for Drug Discovery with Recurrent Neural Networks
+  - [arXiV](https://arxiv.org/abs/1701.01329)
+
 **2016-12**
 
 - Language Modeling with Gated Convolutional Networks
