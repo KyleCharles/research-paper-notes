@@ -2,6 +2,10 @@
 
 - Generating Focussed Molecule Libraries for Drug Discovery with Recurrent Neural Networks
   - [arXiV](https://arxiv.org/abs/1701.01329)
+- Automatic Chemical Design using a Data-Driven Continuous Representation of Molecules
+  - [arXiV](https://arxiv.org/abs/1610.02415)
+- Generating Sequences from a Continuous Space
+  - [arXiv](https://arxiv.org/abs/1511.06349)
 
 **2016-12**
 
