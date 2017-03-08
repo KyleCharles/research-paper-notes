@@ -1,3 +1,10 @@
+**2017-03**
+
+- Generative Adversarial Nets
+  - [arXiV](https://arxiv.org/abs/1406.2661)
+- Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+  - [arXiV](https://arxiv.org/abs/1511.06434)
+
 **2017-01**
 
 - Generating Focussed Molecule Libraries for Drug Discovery with Recurrent Neural Networks
