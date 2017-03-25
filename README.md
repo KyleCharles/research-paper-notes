@@ -1,16 +1,20 @@
 **2017-03**
 
+- Learning to Discover Cross-Domain Relations with Generative Adversarial Networks
+  - [arXiV](https://arxiv.org/abs/1703.05192)
+- Image-to-Image Translation with Conditional Adversarial Networks
+  - [arXiv](https://arxiv.org/abs/1611.07004)
 - Generative Adversarial Nets
-  - [arXiV](https://arxiv.org/abs/1406.2661)
+  - [arXiv](https://arxiv.org/abs/1406.2661)
 - Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
-  - [arXiV](https://arxiv.org/abs/1511.06434)
+  - [arXiv](https://arxiv.org/abs/1511.06434)
 
 **2017-01**
 
 - Generating Focussed Molecule Libraries for Drug Discovery with Recurrent Neural Networks
-  - [arXiV](https://arxiv.org/abs/1701.01329)
+  - [arXiv](https://arxiv.org/abs/1701.01329)
 - Automatic Chemical Design using a Data-Driven Continuous Representation of Molecules
-  - [arXiV](https://arxiv.org/abs/1610.02415)
+  - [arXiv](https://arxiv.org/abs/1610.02415)
 - Generating Sequences from a Continuous Space
   - [arXiv](https://arxiv.org/abs/1511.06349)
 
