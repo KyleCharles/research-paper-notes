@@ -1,3 +1,8 @@
+**2017-05**
+
+- Neural Machine Translation and Sequence-to-sequence Models: A Tutorial
+  - [arXiV](https://arxiv.org/abs/1703.01619)
+
 **2017-03**
 
 - Learning to Discover Cross-Domain Relations with Generative Adversarial Networks
