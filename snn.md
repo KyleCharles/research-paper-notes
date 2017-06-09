@@ -4,27 +4,21 @@
 
 **Gist**: The authors introduce self-normalizing neural networks (SNNs) whose layer activations automatically converge towards zero mean and unit variance and are robust to noise and perturbations. 
 
-**Significance**: Removes the need for the finicky **Batch Normalization** and  permits training deeper and deeper networks in a robust training scheme.
+**Significance**: Removes the need for the finicky [batch normalization](https://arxiv.org/abs/1502.03167) and  permits training deeper networks with a robust training scheme.
 
 ## Picture Says It All
 
 <p align="center">
- <img src="loss.png" width="600px">
+ <img src="/img/self_norm/loss.png" alt="Drawing">
 </p>
 
 ## Activation Function
 
 Uses **Scaled Exponential Linear Units** or SELUs which are defined as follows:
 
-$$
-\begin{equation}
-  \text{selu}(x) = \lambda 
-  \begin{cases}
-    x & \text{if $x \gt 0$} \\
-    \alpha e^{x} - \alpha  & \text{otherwise}
-  \end{cases}
-\end{equation}
-$$
+<p align="center">
+ <img src="/img/self_norm/eq.png" alt="Drawing" width="300px">
+</p>
 
 For the case where we would like zero mean and unit variance, `alpha = 1.6732` and `scale = 1.0507`.
 
@@ -44,9 +38,9 @@ def selu(x):
 
 ## Weight Initialization
 
-Draw the weights from a Gaussian distribution with mean 0 and variance variance = 1/n.
+Draw the weights from a Gaussian distribution with mean 0 and variance variance = `1/N`.
 
-In python, this is equivalent to setting
+In python, this is equivalent to doing the following:
 
 ```
 mu = 0 
@@ -56,7 +50,7 @@ W = np.random.normal(mu, sigma, N)
 
 ## Alpha Dropout
 
-New variant designed for SELU activation. Randomly sets inputs to $\alpha '$ where $\alpha ' = - \lambda \times \alpha$ then performs an affine transformation  with parameters a and b that preserve the self-normalizing property of the activations.
+New variant designed for SELU activation. Randomly sets inputs to `alpha_drop = alpha * lamb` then performs an affine transformation  with parameters a and b that preserve the self-normalizing property of the activations.
 
 Remember to use the `lambda` and `alpha` values corresponding to zero mean and unit variance. On the other hand, the parameters of the affine transformation can be determined as follows:
 
@@ -91,7 +85,7 @@ def alpha_drop(x, alpha_p=-1.758, keep=0.95):
 	x *= mask
 	
 	# apply affine transformation (using a and b from before)
-	out = x*a +b
+	out = x*a + b
 	
 	return out
 	
