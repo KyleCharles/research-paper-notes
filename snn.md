@@ -73,9 +73,7 @@ b = -prod * (alpha_p*(1-q))
 And here's a quick NN implementation:
 
 ```python
-def alpha_drop(x, alpha_p=-1.758, keep=0.95):
-  q = 1 - keep
-	
+def alpha_drop(x, alpha_p=-1.758, keep=0.95):	
   # create mask
   ones = np.ones(x.shape)
   idx = np.random.rand(*x.shape) < keep
@@ -93,3 +91,4 @@ def alpha_drop(x, alpha_p=-1.758, keep=0.95):
 H = selu(np.dot(W, X) + b)
 H_drop = alpha_drop(H)
 ```
+The authors report that dropout rates `1 - q = 0.05` and `1 - q = 0.1` work well.
