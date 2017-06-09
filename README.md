@@ -1,3 +1,8 @@
+**2017-06**
+
+- Self-Normalizing Neural Networks
+  - [arXiV](https://arxiv.org/abs/1706.02515)
+
 **2017-05**
 
 - Neural Machine Translation and Sequence-to-sequence Models: A Tutorial
