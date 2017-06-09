@@ -29,7 +29,7 @@ For the case where we would like zero mean and unit variance, `alpha = 1.6732` a
 - slope larger than 1 to increase variance
 - continuous curve
 
-```
+```python
 def selu(x):
 	alpha = 1.6732632423543772848170429916717
 	lamb = 1.0507009873554804934193349852946
@@ -42,7 +42,7 @@ Draw the weights from a Gaussian distribution with mean 0 and variance variance 
 
 In python, this is equivalent to doing the following:
 
-```
+```python
 mu = 0 
 sigma = 1.0 / N
 W = np.random.normal(mu, sigma, N)
