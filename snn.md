@@ -70,24 +70,24 @@ a = np.power(prod, -0.5)
 b = -prod * (alpha_p*(1-q))
 ```
 
-And here's a quick example with some NN layers:
+And here's a quick NN implementation:
 
 ```python
 def alpha_drop(x, alpha_p=-1.758, keep=0.95):
-	q = 1 - keep
+  q = 1 - keep
 	
-	# create mask
-	ones = np.ones(x.shape)
-	idx = np.random.rand(*x.shape) < keep
-	mask = ones * idx * alpha_p
-	
-	# apply mask
-	x *= mask
-	
-	# apply affine transformation (using a and b from before)
-	out = x*a + b
-	
-	return out
+  # create mask
+  ones = np.ones(x.shape)
+  idx = np.random.rand(*x.shape) < keep
+  mask = ones * idx * alpha_p
+
+  # apply mask
+  x *= mask
+
+  # apply affine transformation (using a and b from before)
+  out = x*a + b
+
+  return out
 	
 # example
 H = selu(np.dot(W, X) + b)
