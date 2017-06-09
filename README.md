@@ -1,6 +1,7 @@
 **2017-06**
 
 - Self-Normalizing Neural Networks
+  - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/snn.md)
   - [arXiV](https://arxiv.org/abs/1706.02515)
 
 **2017-05**
