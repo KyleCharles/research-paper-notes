@@ -54,7 +54,7 @@ New variant designed for SELU activation. Randomly sets inputs to `alpha_drop = 
 
 Remember to use the `lambda` and `alpha` values corresponding to zero mean and unit variance. On the other hand, the parameters of the affine transformation can be determined as follows:
 
-```
+```python
 # dropout params
 keep = 0.95
 q = 1 - keep
