@@ -75,12 +75,10 @@ And here's a quick NN implementation:
 ```python
 def alpha_drop(x, alpha_p=-1.758, keep=0.95):	
   # create mask
-  ones = np.ones(x.shape)
   idx = np.random.rand(*x.shape) < keep
-  mask = ones * idx * alpha_p
 
   # apply mask
-  x *= mask
+  x[~idx] = alpha_p
 
   # apply affine transformation (using a and b from before)
   out = x*a + b
