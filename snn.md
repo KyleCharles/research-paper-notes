@@ -44,7 +44,7 @@ In python, this is equivalent to doing the following:
 
 ```python
 mu = 0 
-sigma = 1.0 / N
+sigma = np.sqrt(1.0 / N)
 W = np.random.normal(mu, sigma, N)
 ```
 
