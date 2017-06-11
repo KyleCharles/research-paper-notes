@@ -67,7 +67,7 @@ alpha_p = - alpha * lamb
 # affine trans params
 prod = q + np.power(alpha_p, 2)*q*(1-q)
 a = np.power(prod, -0.5)
-b = -prod * (alpha_p*(1-q))
+b = -a * (alpha_p*(1-q))
 ```
 
 And here's a quick NN implementation:
