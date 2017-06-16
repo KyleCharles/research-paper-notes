@@ -1,8 +1,8 @@
 **2017-06**
 
-June is the month of time series!
+*June seems to be the month of time series!*
 
-- Time Series Classificatino Using Multi-Channels Deep Convolutional Neural Networks
+- Time Series Classification Using Multi-Channels Deep Convolutional Neural Networks
   - [pdf](https://pdfs.semanticscholar.org/b94c/cb595375bf57617575454b418fc6371b1d7c.pdf)
 - Learning To Diagnose With LSTM Recurrent Neural Networks
   - [arXiv](https://arxiv.org/abs/1511.03677)
