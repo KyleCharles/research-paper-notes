@@ -1,5 +1,15 @@
 **2017-06**
 
+June is the month of time series!
+
+- Time Series Classificatino Using Multi-Channels Deep Convolutional Neural Networks
+  - [pdf](https://pdfs.semanticscholar.org/b94c/cb595375bf57617575454b418fc6371b1d7c.pdf)
+- Learning To Diagnose With LSTM Recurrent Neural Networks
+  - [arXiv](https://arxiv.org/abs/1511.03677)
+- Multi-Scale Convolutional Neural Networks for Time Series Classification
+  - [arXiv](https://arxiv.org/abs/1603.06995)
+- Grouped Convolutional Neural Networks for Multivariate Time Series
+  - [arXiv](https://arxiv.org/abs/1703.09938)
 - Self-Normalizing Neural Networks
   - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/snn.md)
   - [code](https://github.com/kevinzakka/research-paper-notes/blob/master/self_normalizing_nets.ipynb)
