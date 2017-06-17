@@ -2,6 +2,9 @@
 
 *June seems to be the month of time series!*
 
+- All You Need Is Attention
+  - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/self_attention.md)
+  - [arXiv](https://arxiv.org/pdf/1706.03762.pdf)
 - Time Series Classification Using Multi-Channels Deep Convolutional Neural Networks
   - [pdf](https://pdfs.semanticscholar.org/b94c/cb595375bf57617575454b418fc6371b1d7c.pdf)
 - Learning To Diagnose With LSTM Recurrent Neural Networks
