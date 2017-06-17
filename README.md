@@ -2,7 +2,7 @@
 
 *June seems to be the month of time series!*
 
-- All You Need Is Attention
+- Attention Is All You Need
   - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/self_attention.md)
   - [arXiv](https://arxiv.org/pdf/1706.03762.pdf)
 - Time Series Classification Using Multi-Channels Deep Convolutional Neural Networks
