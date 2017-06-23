@@ -1,5 +1,10 @@
 **2017-06**
 
+- Learning to Reason: End-to-End Module Networks for Visual Question Answering
+  - [arXiv](https://arxiv.org/abs/1704.05526)
+- Neural Module Networks
+  - [arXiv](https://arxiv.org/abs/1511.02799)
+
 *June seems to be the month of time series!*
 
 - Attention Is All You Need
