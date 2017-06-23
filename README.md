@@ -4,9 +4,6 @@
   - [arXiv](https://arxiv.org/abs/1704.05526)
 - Neural Module Networks
   - [arXiv](https://arxiv.org/abs/1511.02799)
-
-*June seems to be the month of time series!*
-
 - Attention Is All You Need
   - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/self_attention.md)
   - [arXiv](https://arxiv.org/pdf/1706.03762.pdf)
