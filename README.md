@@ -1,3 +1,8 @@
+**2017-08**
+
+- Densely Connected Convolutional Networks
+  - [arXiv](https://arxiv.org/abs/1608.06993)
+
 **2017-06**
 
 - Learning to Reason: End-to-End Module Networks for Visual Question Answering
