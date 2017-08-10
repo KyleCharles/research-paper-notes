@@ -1,12 +1,10 @@
 ## Research Paper Library & Notes
 
-This is a list papers that I’ve read with some summaries and implementation code.
-
 <p align="center">
  <img src="./img/book.jpg" alt="Drawing" width="50%">
 </p>
 
----
+This is a list papers that I’ve read with some summaries and implementation code.
 
 **2017-08**
 
