@@ -3,7 +3,7 @@
 This is a list papers that I’ve read with some summaries and implementation code.
 
 <p align="center">
- <img src="./img/book.jpg" alt="Drawing" width="60%">
+ <img src="./img/book.jpg" alt="Drawing" width="50%">
 </p>
 
 ---
