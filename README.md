@@ -1,3 +1,9 @@
+## Research Paper Library & Notes
+
+<p align="center">
+ <img src="./img/notes.png" alt="Drawing" width="50%">
+</p>
+
 **2017-08**
 
 - [SGDR: Stochastic Gradient Descent With Warm Restarts](https://openreview.net/pdf?id=Skq89Scxx)
