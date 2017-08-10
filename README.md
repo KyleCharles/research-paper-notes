@@ -1,10 +1,10 @@
 ## Research Paper Library & Notes
 
+This is a list papers that I’ve read with some summaries and implementation code. They are sorted in inverse chronological order with links to their respective arXiv page.
+
 <p align="center">
  <img src="./img/book.jpg" alt="Drawing" width="50%">
 </p>
-
-This is a list papers that I’ve read with some summaries and implementation code.
 
 **2017-08**
 
