@@ -11,8 +11,7 @@
 - [Inferring and Executing Programs for Visual Reasoning](https://arxiv.org/pdf/1705.03633.pdf)
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
   - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/self_attention.md)
-- Learning To Diagnose With LSTM Recurrent Neural Networks
-  - [arXiv](https://arxiv.org/abs/1511.03677)
+- [Learning To Diagnose With LSTM Recurrent Neural Networks](https://arxiv.org/abs/1511.03677)
 - [Self-Normalizing Neural Networks](https://arxiv.org/abs/1706.02515)
   - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/snn.md)
   - [code](https://github.com/kevinzakka/research-paper-notes/blob/master/self_normalizing_nets.ipynb)
