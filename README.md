@@ -1,5 +1,9 @@
 **2017-08**
 
+- SGDR: Stochastic Gradient Descent With Warm Restarts
+  - [OpenReview](https://openreview.net/pdf?id=Skq89Scxx)
+- FreezeOut
+  - [arXiv](https://arxiv.org/abs/1706.04983)
 - Densely Connected Convolutional Networks
   - [arXiv](https://arxiv.org/abs/1608.06993)
 
