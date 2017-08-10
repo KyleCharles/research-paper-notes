@@ -9,7 +9,7 @@ This is a list papers that I’ve read with some summaries and implementation co
 **2017-08**
 
 - [SGDR: Stochastic Gradient Descent With Warm Restarts](https://openreview.net/pdf?id=Skq89Scxx)
-- [FreezeOut](https://arxiv.org/abs/1706.04983)
+- [FreezeOut: Accelerate Training By Progressively Freezing Layers](https://arxiv.org/abs/1706.04983)
 - [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)
 
 **2017-06**
