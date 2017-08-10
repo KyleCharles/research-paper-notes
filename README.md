@@ -6,6 +6,8 @@ This is a list papers that I’ve read with some summaries and implementation co
  <img src="./img/book.jpg" alt="Drawing" width="60%">
 </p>
 
+---
+
 **2017-08**
 
 - [SGDR: Stochastic Gradient Descent With Warm Restarts](https://openreview.net/pdf?id=Skq89Scxx)
