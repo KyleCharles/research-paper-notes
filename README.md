@@ -1,7 +1,7 @@
 ## Research Paper Library & Notes
 
 <p align="center">
- <img src="./img/notes.png" alt="Drawing" width="50%">
+ <img src="./img/book.jpg" alt="Drawing" width="60%">
 </p>
 
 **2017-08**
