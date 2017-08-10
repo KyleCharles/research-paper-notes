@@ -54,6 +54,6 @@
   - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/large_batch_training.md)
 - [Batch Normalization](https://arxiv.org/abs/1502.03167)
   - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/batch_normalization.md)
-  - [Code](https://github.com/kevinzakka/research-paper-notes/blob/master/batch_norm.py)
+  - [code](https://github.com/kevinzakka/research-paper-notes/blob/master/batch_norm.py)
 - [Dropout](http://www.jmlr.org/papers/v15/srivastava14a.html)
   - [summary](https://github.com/kevinzakka/research-paper-notes/blob/master/dropout.md)
