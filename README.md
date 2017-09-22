@@ -6,6 +6,11 @@ This is a list papers that I’ve read with some summaries and implementation co
  <img src="./img/book.jpg" alt="Drawing" width="50%">
 </p>
 
+**2017-09**
+
+- [DRAW: A Recurrent Neural Network For Image Generation](https://arxiv.org/abs/1502.04623)
+- [Recurrent Models of Visual Attention](https://arxiv.org/abs/1406.6247)
+
 **2017-08**
 
 - [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)
