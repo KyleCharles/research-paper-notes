@@ -6,6 +6,10 @@ This is a list papers that I’ve read with some summaries and implementation co
  <img src="./img/book.jpg" alt="Drawing" width="50%">
 </p>
 
+**2017-12**
+
+- [The Case for Learned Index Structures](https://arxiv.org/abs/1712.01208v1)
+
 **2017-09**
 
 - [DRAW: A Recurrent Neural Network For Image Generation](https://arxiv.org/abs/1502.04623)
