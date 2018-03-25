@@ -6,6 +6,11 @@ This is a list papers that I’ve read with some summaries and implementation co
  <img src="./img/book.jpg" alt="Drawing" width="50%">
 </p>
 
+**2018-03**
+
+- [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf)
+- [Siamese Neural Networks for One-shot Image Recognition](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
+
 **2018-02**
 
 - [HYPERBAND: Bandit-Based Configuration Evaluation For Hyperparameter Optimization](https://arxiv.org/abs/1603.06560)
