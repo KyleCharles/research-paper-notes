@@ -6,6 +6,10 @@ This is a list papers that I’ve read with some summaries and implementation co
  <img src="./img/book.jpg" alt="Drawing" width="50%">
 </p>
 
+**2018-04**
+
+- [Gradient Estimation Using Stochastic Computation Graphs](https://arxiv.org/abs/1506.05254)
+
 **2018-03**
 
 - [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf)
